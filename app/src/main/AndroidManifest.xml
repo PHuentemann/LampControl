@@ -3,6 +3,7 @@
     package="com.phuentemann.www.lampcontrol">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <application
         android:allowBackup="true"
@@ -17,11 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".esp8266" />
+        <activity android:name=".esp8266" />
         <activity
             android:name=".Settings"
-            android:label="@string/settings_section"/>
+            android:label="@string/settings_section" />
         <activity android:name=".About" />
     </application>
 
