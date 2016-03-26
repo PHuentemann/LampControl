@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settings_section">
+
+        <EditTextPreference
+            android:key="rpi_ipaddress"
+            android:title="@string/title_rpi_ipaddress"
+            android:summary="@string/summary_rpi_ipaddress"
+            android:defaultValue="@string/default_value_rpi_ipaddress"
+            android:dialogTitle="@string/dialog_title_rpi_ipaddress"/>
+
+        <EditTextPreference
+            android:key="rpi_port"
+            android:title="@string/title_rpi_port"
+            android:summary="@string/summary_rpi_port"
+            android:defaultValue="@string/default_value_rpi_port"
+            android:dialogTitle="@string/dialog_title_rpi_port"/>
+
+        <EditTextPreference
+            android:key="esp_ipaddress"
+            android:title="@string/title_esp_ipaddress"
+            android:summary="@string/summary_esp_ipaddress"
+            android:defaultValue="@string/default_value_esp_ipaddress"
+            android:dialogTitle="@string/dialog_title_esp_ipaddress"/>
+
+        <EditTextPreference
+            android:key="esp_port"
+            android:title="@string/title_esp_port"
+            android:summary="@string/summary_esp_port"
+            android:defaultValue="@string/default_value_esp_port"
+            android:dialogTitle="@string/dialog_title_esp_port"/>
+
+        <CheckBoxPreference
+            android:key="debug"
+            android:title="@string/title_debug"
+            android:summary="@string/summary_debug"
+            android:defaultValue="@string/default_value_debug"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

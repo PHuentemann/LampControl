@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LampControl</string>
+    // HomeScreen Activity
+    <string name="lampcontrol_title">LampControl v1</string>
+    <string name="lamp_0_title">Deckenlampe</string>
+    <string name="lamp_1_title">Sideboad-Lampe</string>
+    <string name="lamp_2_title">Lamp 2</string>
+    <string name="lamp_3_title">Lamp 3</string>
+    <string name="button_an">An</string>
+    <string name="button_aus">Aus</string>
+    <string name="drawer_open">Open Navigation</string>
+    <string name="drawer_close">Close Navigation</string>
+
+    // ESP8266 Activity
+    <string name="esp_button_refresh">Refresh</string>
+    <string name="esp_button_clear">Clear Graph</string>
+    <string name="esp_button_auto">Automatic</string>
+
+
+    // Settings Activity
+    <string name="title_activity_settings">Settings</string>
+
+    // Preferences XML
+    <string name="settings_section">Settings</string>
+    // EditTextPreference RaspberryPi IP-Address
+    <string name="title_rpi_ipaddress">Raspberry Pi IP-Address</string>
+    <string name="summary_rpi_ipaddress">Change the IP-Address of the Raspberry Pi</string>
+    <string name="default_value_rpi_ipaddress">192.168.2.201</string>
+    <string name="dialog_title_rpi_ipaddress">Raspberry Pi IP-Address</string>
+    // EditTextPreference RaspberryPi Port
+    <string name="title_rpi_port">Raspberry Pi Port</string>
+    <string name="summary_rpi_port">Change the Port of the Raspberry Pi</string>
+    <string name="default_value_rpi_port">8000</string>
+    <string name="dialog_title_rpi_port">Raspberry Pi Port</string>
+    // EditTextPreference ESP8266 IP-Address
+    <string name="title_esp_ipaddress">ESP8266 IP-Address</string>
+    <string name="summary_esp_ipaddress">Change the IP-Address of the ESP8266</string>
+    <string name="default_value_esp_ipaddress">192.168.4.1</string>
+    <string name="dialog_title_esp_ipaddress">ESP8266 IP-Address</string>
+    // EditTextPreference ESP8266 Port
+    <string name="title_esp_port">ESP8266 Port</string>
+    <string name="summary_esp_port">Change the port of the ESP8266</string>
+    <string name="default_value_esp_port">7777</string>
+    <string name="dialog_title_esp_port">ESP8266 Port</string>
+    // CheckBoxPreference Debug
+    <string name="title_debug">Debug Mode</string>
+    <string name="summary_debug">Enable the debug mode</string>
+    <string name="default_value_debug">false</string>
+
+    // About Activity
+    <string name="about">This app was created by the one and only <b>Pascal Hüntemann</b>.\nRight now it only has very limited functions, but in the future
+                         there will be a lot more to it.\n\u00A9 Copyright 2016</string>
+</resources>
